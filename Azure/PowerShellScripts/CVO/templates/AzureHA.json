@@ -1,0 +1,30 @@
+{
+    "name": "param",
+    "tenantId": "param",
+    "region": "eastus",
+    "packageName": "azure_ha_standard",
+    "dataEncryptionType": "AZURE",
+    "capacityTier": "Blob",
+    "vsaMetadata": {
+      "ontapVersion": "latest",
+      "licenseType": "azure-ha-cot-standard-paygo",
+      "instanceType": "Standard_DS4_v2"
+    },
+    "writingSpeedState": "NORMAL",
+    "subnetId": "/subscriptions/<Your Subscription ID>/resourceGroups/RT#######_CORE/providers/Microsoft.Network/virtualNetworks/Primary-VNet/subnets/BackEnd",
+    "svmPassword": "Netapp234",
+    "vnetId": "/subscriptions/<Your Subscription ID>/resourceGroups/RT#######_CORE/providers/Microsoft.Network/virtualNetworks/Primary-VNet",
+    "cidr": "10.2.1.0/24",
+    "ontapEncryptionParameters": null,
+    "skipSnapshots": false,
+    "diskSize": {
+      "size": 500,
+      "unit": "GB"
+    },
+    "storageType": "Premium_LRS",
+    "azureTags": [],
+    "resourceGroup": "param",
+	"allowDeployInExistingRg": true,
+    "subscriptionId": "param",
+    "cloudProviderAccount": "ManagedServiceIdentity"
+}

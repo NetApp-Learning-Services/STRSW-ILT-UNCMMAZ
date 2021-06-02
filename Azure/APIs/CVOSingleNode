@@ -1,0 +1,31 @@
+{
+  "name": "CVO1",
+  "tenantId": "<Your Workspace ID >",
+  "region": "eastus",
+  "packageName": "azure_custom",
+  "dataEncryptionType": "AZURE",
+  "capacityTier": "Blob",
+  "vsaMetadata": {
+    "ontapVersion": "ONTAP-9.9.0.T1.azure",
+    "licenseType": "azure-cot-standard-paygo",
+    "instanceType": "Standard_DS4_v2"
+  },
+  "writingSpeedState": "NORMAL",
+  "subnetId": "/subscriptions/<Your SubscriptionID>/resourceGroups/RT#######_CORE/providers/Microsoft.Network/virtualNetworks/Primary-VNet/subnets/BackEnd",
+  "svmPassword": "Netapp1!",
+  "vnetId": "/subscriptions/<Your SubscriptionID>/resourceGroups/RT#######_CORE/providers/Microsoft.Network/virtualNetworks/Primary-VNet",
+  "cidr": "10.2.1.0/24",
+  "ontapEncryptionParameters": null,
+  "skipSnapshots": false,
+ "diskSize": {
+    "size": 500,
+    "unit": "GB"
+  },
+  "storageType": "Premium_LRS",
+  "azureTags": [],
+  "resourceGroup": "RT#######_CVO",
+  "allowDeployInExistingRg": true,
+  "subscriptionId": "<Your SubscriptionID>",
+  "cloudProviderAccount": "ManagedServiceIdentity",
+  "enableCompliance": false
+}

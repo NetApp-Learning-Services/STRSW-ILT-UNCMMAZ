@@ -1,0 +1,66 @@
+
+Azure portal login:
+---------------------
+
+
+
+Resource Group Names:
+-----------------------
+
+
+
+
+
+
+
+NetApp Cloud Central Login:
+----------------------------
+username:  
+password: 
+Organization Account name: 
+
+
+Azure Subscription Id:
+----------------------
+
+
+Azure Tenant Id:
+-----------------
+
+
+W2K16-JumpHost 
+--------------------------
+Public IP: 
+Private IP: 
+user name: 
+password: 
+
+
+RHEL74-Priv
+----------------
+Public IP address: 
+Private IP: 
+user name: 
+password: 
+
+
+
+Public IP address of VNet-GW:
+------------------------------
+
+
+Connector Id:
+-------------
+
+
+Workspace ID:
+-------------
+
+
+Refresh Token:
+---------------
+
+
+
+
+
