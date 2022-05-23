@@ -1,30 +1,36 @@
 {
-    "name": "param",
-    "tenantId": "param",
-    "region": "eastus",
-    "packageName": "azure_ha_standard",
-    "dataEncryptionType": "AZURE",
-    "capacityTier": "Blob",
-    "vsaMetadata": {
-      "ontapVersion": "latest",
-      "licenseType": "azure-ha-cot-standard-paygo",
-      "instanceType": "Standard_DS4_v2"
-    },
-    "writingSpeedState": "NORMAL",
-    "subnetId": "/subscriptions/<Your Subscription ID>/resourceGroups/RT#######_CORE/providers/Microsoft.Network/virtualNetworks/Primary-VNet/subnets/BackEnd",
-    "svmPassword": "Netapp234",
-    "vnetId": "/subscriptions/<Your Subscription ID>/resourceGroups/RT#######_CORE/providers/Microsoft.Network/virtualNetworks/Primary-VNet",
-    "cidr": "10.2.1.0/24",
-    "ontapEncryptionParameters": null,
-    "skipSnapshots": false,
-    "diskSize": {
-      "size": 500,
-      "unit": "GB"
-    },
-    "storageType": "Premium_LRS",
-    "azureTags": [],
-    "resourceGroup": "param",
-	"allowDeployInExistingRg": true,
-    "subscriptionId": "param",
-    "cloudProviderAccount": "ManagedServiceIdentity"
+  "name": "param",
+  "tenantId": "param",
+  "region": "eastus",
+  "packageName": "azure_ha_custom",
+  "dataEncryptionType": "AZURE",
+  "capacityTier": "Blob",
+  "tierLevel": "normal",
+  "vsaMetadata": {
+    "ontapVersion": "ONTAP-9.10.1.T1.azureha",
+    "licenseType": "ha-capacity-paygo",
+    "instanceType": "Standard_DS5_v2",
+    "capacityPackageName": "Freemium"
+  },
+  "writingSpeedState": "NORMAL",
+  "subnetId": "/subscriptions/<Your Subscription ID>/resourceGroups/RTXXXXX_CORE/providers/Microsoft.Network/virtualNetworks/Primary-VNet/subnets/BackEnd",
+  "svmPassword": "Netapp1!",
+  "vnetId": "/subscriptions/<Your Subscription ID>/resourceGroups/RTXXXXX_CORE/providers/Microsoft.Network/virtualNetworks/Primary-VNet",
+  "cidr": "10.2.0.0/16",
+  "ontapEncryptionParameters": null,
+  "skipSnapshots": false,
+  "diskSize": {
+    "size": 500,
+    "unit": "GB"
+  },
+  "storageType": "Premium_LRS",
+  "azureTags": [],
+  "subscriptionId": "param",
+  "cloudProviderAccount": "ManagedServiceIdentity",
+  "backupVolumesToCbs": false,
+  "enableCompliance": false,
+  "enableMonitoring": false,
+  "availabilityZone": null,
+  "allowDeployInExistingRg": true,
+  "resourceGroup": "param"
 }
