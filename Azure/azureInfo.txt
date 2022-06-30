@@ -47,20 +47,3 @@ password:
 
 Public IP address of VNet-GW:
 ------------------------------
-
-
-Connector Id:
--------------
-
-
-Workspace ID:
--------------
-
-
-Refresh Token:
----------------
-
-
-
-
-
